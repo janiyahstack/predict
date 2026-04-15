@@ -8,7 +8,7 @@ import os
 app = Flask(__name__)
 CORS(app)
 
-ATTOM_KEY = "ab622c892cea2178fa6fd6d452bf7d82"
+HOMESAGE_KEY = os.environ.get("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjFhMGRjYzM3LTg2ZDAtNGMzZC1iOWI5LTNiYzdiMjhkMWY3NiIsImV4cCI6MTc1NDQyNDk0MzguNzA1MDA2fQ.yd_czyY8WyEzlQZNH0InNS26tPwoCGCV2KoBrSsu74M")
 
 def classify_property(prop):
     try:
